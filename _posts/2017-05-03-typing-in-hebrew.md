@@ -1,10 +1,10 @@
 ---
 layout: post
 title:  "Typing in Hebrew"
+subtitle:  "My custom approach and a new keyboard layout"
 date:   2017-05-03 14:00:00 +0300
-category: [Hebrew, Unicode]
-icon: www
-link: hebrew un
+author: James Cuénod
+header-img: "img/post-bg-01.jpg"
 ---
 
 A big problem for me when I first encountered the need to use Hebrew on the computer was that I didn't know how to type it. I knew the importance and value of unicode (see a rationale for unicode [here](https://tyndaletech.blogspot.com/2005/03/unicode-fonts-for-biblical-studies-made.html)). So I *wanted* to use unicode but actually typing Hebrew was going to be a problem.
