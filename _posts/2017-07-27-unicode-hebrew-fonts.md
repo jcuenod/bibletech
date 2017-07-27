@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Biblical Hebrew Fonts"
-subtitle:   "because they lacked opposable thumbs and the brainpower to build a space program."
+subtitle:   "Finding fonts that support Biblical Hebrew and look good"
 date:   2017-07-27 14:00:00 +0300
 author: James Cuénod
 header-img: "img/post-bg-01.jpg"
