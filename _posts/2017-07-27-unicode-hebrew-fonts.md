@@ -4,7 +4,7 @@ title:  "Biblical Hebrew Fonts"
 subtitle:   "Finding fonts that support Biblical Hebrew and look good"
 date:   2017-07-27 14:00:00 +0300
 author: James Cuénod
-header-img: "img/post-bg-01.jpg"
+header-img: "img/post-bg-hebrew.jpg"
 ---
 
 I am always on the lookout for good unicode fonts to use. I've pretty much defaulted to SBL's fonts but I'm not 100% sold on their Greek or Hebrew (although their Hebrew is **much** better than a number of alternatives). Recently I came across this great breakdown with licenses (whether it can be reused and in what context), foundry (who produces the font) and style as well as a nice pdf showing different layouts <http://opensiddur.org/tools/fonts/>.

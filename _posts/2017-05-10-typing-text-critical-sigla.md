@@ -4,7 +4,7 @@ title:  "Typing Text-Critical Sigla"
 subtitle:  "Unicode fonts and symbols to use in textual criticism"
 date:   2017-05-10 14:00:00 +0300
 author: James Cuénod
-header-img: "img/post-bg-01.jpg"
+header-img: "img/post-bg-hebrew.jpg"
 ---
 
 This is not a complex problem to understand. There are a bunch of symbols that appear in our critical apparatuses. Most of them are weird gothic looking sigla that we don't know how to write. I found that they actually do exist in unicode but then I discovered that they don't look to great in the fonts I regularly use. Now I've discovered what seems to be the gold standard of font for critical apparatus sigla: SIL's [ApparatusSIL](http://scripts.sil.org/cms/scripts/page.php?item_id=ApparatusSIL).
