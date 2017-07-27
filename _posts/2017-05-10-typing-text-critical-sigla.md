@@ -47,6 +47,6 @@ Some useful links I'm noting here for future reference:
  - <http://ntresources.com/blog/?p=774>
  - <https://evangelicaltextualcriticism.blogspot.co.za/2010/02/2135.html>
  - For the actual text-critical markings, see this pdf on additional punctuation in unicode <http://www.unicode.org/charts/PDF/U2E00.pdf>
- - <{{ site.baseurl }}/img/text-critical-marks-unicode.jpg>
+ - <{{ site.url }}{{ site.baseurl }}/img/text-critical-marks-unicode.jpg>
 
 Unforunately, both reference <http://en.foursenses.net/textcriticismsigns> which seems to be dead.
