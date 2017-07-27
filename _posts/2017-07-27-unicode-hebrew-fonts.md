@@ -13,14 +13,14 @@ I tried a whole bunch of them and I must say, I was mostly disappointed.
 
 One thing to realise is that Hebrew fonts are designed for modern Hebrew. This means that simple things like vowels are not prioritised let alone cantillation/accent marks (which are often completely absent). So although I really liked Alef Hebrew and David Libre, they both lack some more complex combined characters (with accents and vowels).
 
-## Tinos and Arimo
+## Arimo & Tinos
 
 These fonts have all the necessary glyphs but neither one positions the sof pasuq correctly.
 
-<img src="{{ site.baseurl }}/img/post-font-tinos-arimo.jpg" alt="Hebrew Fonts: Tinos, Arimo">
+<img src="{{ site.baseurl }}/img/post-font-arimo-tinos.jpg" alt="Hebrew Fonts: Tinos, Arimo">
 
 
-## Shofar, Taamey David and Keter
+## Shofar, Taamey David & Keter YG
 
 There are some fonts that were designed with accents in mind: <http://culmus.sourceforge.net/taamim/>. As you can see, they handle biblical text considerably better than the others.
 
@@ -35,6 +35,8 @@ Namely, Cardo, Ezra SIL, SBL Biblit/Hebrew. Here are examples of these three:
 <img src="{{ site.baseurl }}/img/post-font-cardo-sil-sbl.jpg" alt="Hebrew Fonts: Cardo, Ezra SIL, SBL Hebrew">
 
 One thing to note about Cardo is that it's just a regular font that supports a large selection of glyphs so it's likely to have a lot more support for weird characters than the others here which are made for particular use cases.
+
+Something to be aware of is that the designer who made SBL Hebrew was involved in some of the fonts above (I think you can recognise his style).
 
 You may be wondering what the difference is between SBL Biblit and SBL Hebrew. It's not difficult to guess, Biblit combines SBL's Greek and Hebrew fonts into one:
 
