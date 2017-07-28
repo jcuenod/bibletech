@@ -3,6 +3,7 @@ layout: page
 title: "Projects"
 description: "Stuff I'm working on (or *was* working on)"
 header-img: "img/about-bg.jpg"
+order: 3
 ---
 
 # Interacting with Biblical Text
