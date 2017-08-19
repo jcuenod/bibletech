@@ -269,7 +269,7 @@ So the other block we need to consider is `\uFB1D-\uFB1F`. A bunch of these char
 
 So now what do we do with all this unicode goodness?
 
-Javascript actually has a number of ways of building a regular expression. For more details, the best source is (MDN)[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions]. In short, regular expressions can be built in two ways:
+Javascript actually has a number of ways of building a regular expression. For more details, the best source is [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions). In short, regular expressions can be built in two ways:
 
  - A string (often as a parameter to a function that expects a regular expression). This is useful if you want to generate an expression.
  - A regex style string: `/regex-stuff/`
