@@ -11,6 +11,18 @@ header-img: "img/post-bg-hebrew.jpg"
 
 If you don't know what unicode is, this is not the post for you. If you don't know what regular expressions are, this is not the post for you. If you're still reading and you want to identify Hebrew characters in a string, this is the post for you. This is really just to document this stuff for myself...
 
+# TL;DR
+
+Just want to match the whole unicode block relevant to biblical studies, this should get you going:
+
+```javascript
+// The standard Hebrew unicode block
+[\u0590-\u05FF]/.test("some string with Hebrew in it")
+
+// With precomposed characters
+[\u0590-\u05FF\uFB2A-\uFB4E]/.test("some string with Hebrew in it")
+```
+
 # Relevant Unicode Blocks for Hebrew
 
 To begin with, it's worth noting the relevant unicode blocks. The **full block** is `\u0590-\u05FF`. We have the cantillation (`\u0591-\u05AF`), vowels (`\u05B0-\u05BB`), some other pointing (`\u05BC-\u05C7`), the alphabet (`\u05D0-\u05EA`) and some extras that I don't care about (`\u05Fx`). I have shamelessly stolen this table from <https://en.wikipedia.org/wiki/Unicode_and_HTML_for_the_Hebrew_alphabet>
@@ -270,9 +282,11 @@ Or you can use them directly `/match/.test("string with match")` (this only work
 
 To get the unicode goodness into a regular expression, we use the `\u` syntax...
 
-  // remember that 05BC is the unicode point for a Dagesh
-  /\u05BC/.test("בְּרֵאשִׁית")
-  //true
+```javascript
+// remember that 05BC is the unicode point for a Dagesh
+/\u05BC/.test("בְּרֵאשִׁית")
+//true
+```
 
 But we can also match ranges:
 
@@ -284,12 +298,10 @@ But we can also match ranges:
 It's worth also noting that this `.test` is just checking whether the string has a matching character. If we want to check that the whole string is Hebrew we need to use `^` and `$` (and remember, this will still not match spaces).
 
 ```javascript
+// The match must span the whole string
 /^[\u0590-\u05FF]*$/.test("בְּרֵאשִׁית")
-```
 
-We can also match multiple ranges:
-
-```javascript
+// We can also match multiple ranges:
 /[\u0590-\u05FF]/.test("מָקוֹם") // Using a precomposed Holem-waw
 // false
 /[\u0590-\u05FF\uFB2A-\uFB4E]/.test("מָקוֹם")
@@ -304,7 +316,7 @@ Hopefully that will get you going. Just a reminder to check the difference betwe
 ### Test
 
 ```
-*regexpObj*.test(*str*)
+regexpObj.test(str)
 ```
 
 **Returns:** true if there is a match between the regular expression and the specified string; otherwise, false.
@@ -312,7 +324,7 @@ Hopefully that will get you going. Just a reminder to check the difference betwe
 ### Match
 
 ```
-*str*.match(*regexp*)
+str.match(regexp)
 ```
 
 **Returns:** An Array containing the entire match result and any parentheses-captured matched results; null if there were no matches.
@@ -320,7 +332,7 @@ Hopefully that will get you going. Just a reminder to check the difference betwe
 ### Search
 
 ```
-*str*.search(*regexp*)
+str.search(regexp)
 ```
 
 **Returns:** The index of the first match between the regular expression and the given string; if not found, -1.
