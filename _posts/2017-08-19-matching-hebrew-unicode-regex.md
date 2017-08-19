@@ -175,6 +175,7 @@ To begin with, it's worth noting the relevant unicode blocks. The **full block**
 </table>
 
 Some highlights above:
+ - Note the *final* characters interspersed above (ך: `\u05DA`, ם: `\u05DD`, ן‎: `\u05DF`, ף‎: `\u05E3`, ץ‎: `\u05E5`)
  - Dagesh/Mappiq at `\u05BC`.
  - Maqaf (or however you want to spell that) at `\u05BE`.
  - Inverted Nun - that's fun `\u05C6`.
