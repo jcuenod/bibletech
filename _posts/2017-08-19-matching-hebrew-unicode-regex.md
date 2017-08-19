@@ -278,36 +278,6 @@ And you can choose to compile them for reuse: e.g. `const r = new RegExp("match"
 
 Or you can use them directly `/match/.test("string with match")` (this only works with regex style strings).
 
-## Matching Unicode with Regex
-
-To get the unicode goodness into a regular expression, we use the `\u` syntax...
-
-```javascript
-// remember that 05BC is the unicode point for a Dagesh
-/\u05BC/.test("בְּרֵאשִׁית")
-//true
-```
-
-But we can also match ranges:
-
-```javascript
-/[\u0590-\u05FF]/.test("בְּרֵאשִׁית")
-// true
-```
-
-It's worth also noting that this `.test` is just checking whether the string has a matching character. If we want to check that the whole string is Hebrew we need to use `^` and `$` (and remember, this will still not match spaces).
-
-```javascript
-// The match must span the whole string
-/^[\u0590-\u05FF]*$/.test("בְּרֵאשִׁית")
-
-// We can also match multiple ranges:
-/[\u0590-\u05FF]/.test("מָקוֹם") // Using a precomposed Holem-waw
-// false
-/[\u0590-\u05FF\uFB2A-\uFB4E]/.test("מָקוֹם")
-// true
-```
-
 
 ## Quick Reminder about Regex Functions
 
@@ -336,3 +306,31 @@ str.search(regexp)
 ```
 
 **Returns:** The index of the first match between the regular expression and the given string; if not found, -1.
+
+## Matching Unicode with Regex
+
+To get the unicode goodness into a regular expression, we use the `\u` syntax...
+
+```javascript
+// remember that 05BC is the unicode point for a Dagesh
+/\u05BC/.test("בְּרֵאשִׁית")
+//true
+
+// And we can also match ranges:
+/[\u0590-\u05FF]/.test("בְּרֵאשִׁית")
+// true
+
+// And even multiple ranges:
+/[\u0590-\u05FF]/.test("מָקוֹם") // (Using a precomposed Holem-waw)
+// false
+/[\u0590-\u05FF\uFB2A-\uFB4E]/.test("מָקוֹם")
+// true
+```
+
+It's worth also noting that this `.test` is just checking whether the string has a matching character. If we want to check that the whole string is Hebrew we need to use `^` and `$` (and remember, this will still not match spaces).
+
+```javascript
+// The match must span the whole string
+/^[\u0590-\u05FF]*$/.test("בְּרֵאשִׁית something that's not hebrew")
+// false
+```
