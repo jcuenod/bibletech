@@ -17,10 +17,10 @@ Just want to match the whole unicode block relevant to biblical studies, this sh
 
 ```javascript
 // The standard Hebrew unicode block
-[\u0590-\u05FF]/.test("some string with Hebrew in it")
+/[\u0590-\u05FF]/.test("some string with Hebrew in it")
 
 // With precomposed characters
-[\u0590-\u05FF\uFB2A-\uFB4E]/.test("some string with Hebrew in it")
+/[\u0590-\u05FF\uFB2A-\uFB4E]/.test("some string with Hebrew in it")
 ```
 
 # Relevant Unicode Blocks for Hebrew
