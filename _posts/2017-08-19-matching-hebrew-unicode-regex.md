@@ -271,7 +271,7 @@ So now what do we do with all this unicode goodness?
 
 Javascript actually has a number of ways of building a regular expression. For more details, the best source is [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions). In short, regular expressions can be built in two ways:
 
- - A string (often as a parameter to a function that expects a regular expression). This is useful if you want to generate an expression.
+ - A string (often as a parameter to a function that expects a regular expression). This is useful if you want to generate an expression; use something like `new RegExp(str)`.
  - A regex style string: `/regex-stuff/`
 
 And you can choose to compile them for reuse: e.g. `const r = new RegExp("match")` or `const r = new RegExp(/match/)` and then `r.test("string with match")`.
@@ -281,7 +281,7 @@ Or you can use them directly `/match/.test("string with match")` (this only work
 
 ## Quick Reminder about Regex Functions
 
-Hopefully that will get you going. Just a reminder to check the difference between `search`, `test` and `match`: (note the object these functions exist on and their return type)
+Hopefully that will get you going. Just a reminder to check the difference between `search`, `test` and `match` (note the object these functions exist on and their return type):
 
 ### Test
 
@@ -312,7 +312,7 @@ str.search(regexp)
 To get the unicode goodness into a regular expression, we use the `\u` syntax...
 
 ```javascript
-// remember that 05BC is the unicode point for a Dagesh
+// Remember that 05BC is the unicode point for a Dagesh
 /\u05BC/.test("בְּרֵאשִׁית")
 //true
 
