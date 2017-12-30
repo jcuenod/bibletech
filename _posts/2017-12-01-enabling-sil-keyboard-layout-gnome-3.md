@@ -11,11 +11,11 @@ header-img: "img/post-bg-hebrew.jpg"
 
 Some time ago I posted on typing in Hebrew [here](https://jcuenod.github.io/bibletech/2017/05/03/typing-in-hebrew/). The conclusion to that post was:
 
-> my recommendation is that you install SIL's keyboard layout
+> ... my recommendation is that you **install SIL's keyboard layout**
 
 I just reinstalled Linux (I use Antergos with Gnome) and realised that enabling the SIL layout was not as straightforward as I remembered.
 
-The process is supposed to be simple: `Settings` → `Region & Language` → `+` (add input source) → `⋮` (more sources) → `Other`. Then typing Hebrew should present you with "Biblical, SIL phonetic". Instead the only options are "Hebrew," "Hebrew (Biblical, Tiro)," "Hebrew (lyx)" and "Hebrew (phonetic)." Honestly, those keyboard maps all had serious weaknesses for an English user (like no vowel points or not being phonetic).
+The process is supposed to be simple: `Settings` → `Region & Language` → `+` (add input source) → `⋮` (more sources) → `Other`. Then typing "Hebrew" in the search box should present you with "Biblical, SIL phonetic". Instead the only options are "Hebrew," "Hebrew (Biblical, Tiro)," "Hebrew (lyx)" and "Hebrew (phonetic)." Honestly, those keyboard maps all had serious weaknesses for an English user (like no vowel points or not being phonetic).
 
 So how do we view SIL's layout? There are two methods:
 
