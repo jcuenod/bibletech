@@ -29,7 +29,7 @@ In Gnome Tweak Tools (or "Tweaks"), go to `Keyboard & Mouse` and enable `Show Ex
 
 The setting you need to set to true is `/org/gnome/desktop/input-sources/show-all-sources`. You can find it in dconf-editor or you can use `gsettings` at the cli:
 
-```
+```sh
 gsettings set org.gnome.desktop.input-sources show-all-sources true
 ```
 
