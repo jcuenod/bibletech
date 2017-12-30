@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Enabling SIL Keyboard Layout on Gnome 3"
+title:  "Enabling SIL Keyboard Layout on Gnome&nbsp;3"
 subtitle:  "Because it's hidden by default"
 date:   2017-12-01 14:00:00 +0300
 author: James Cuénod
