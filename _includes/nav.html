@@ -18,7 +18,7 @@
                 <li>
                     <a href="{{ site.baseurl }}/">Home</a>
                 </li>
-                {% for page in (site.pages | sort: order) %}{% if page.title %}
+                {% for page in (site.pages | sort: 'order') %}{{ page.order }}{% if page.title %}
 				{% if page.url != '/404.html' %}
                 <li>
                     <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
