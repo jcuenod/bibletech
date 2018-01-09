@@ -42,6 +42,6 @@ Cuneiform|Transliteration|Hebrew Approximation
 𐎚|t|ת
 𐎛|ʾi|א
 𐎜|ʾu|א
-𐎝|ś|ס
+𐎝|s̀ |ס
 𐎟|.|
 
