@@ -22,3 +22,5 @@ So duh! If they're all sitting there as pdfs, just sync the folder to dropbox or
 	~/Dropbox$ ln -s ~/Zotero .
 
 Of course, you could do `~/Zotero/storage` but I figured, why not just sync the whole folder... Seems safer that way.
+
+Now this only stores your pdfs - you could always have done that (and I think maybe that's why this solution didn't occur to me). The last trick is that Zotero allows you *not* to sync attachments. `Edit` -> `Preferences` -> `Sync` -> Uncheck the `Sync attachment files in My Library using ....` option
