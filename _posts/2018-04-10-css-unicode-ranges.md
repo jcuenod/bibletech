@@ -13,6 +13,7 @@ A while ago I discovered that you could use the `@font-face` rule in CSS to segm
 
 Anyway, the interesting code snippet that you need is:
 
+~~~ css
 	@font-face {
 	    font-family: EzraSILW;
 	    src: url(SILEOT.woff);
@@ -27,6 +28,7 @@ Anyway, the interesting code snippet that you need is:
 	body {
 	    font-family: EzraSILW, GentiumPlusW, Arial;
 	}
+~~~
 
 Three things to remember:
 
