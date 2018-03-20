@@ -14,20 +14,20 @@ A while ago I discovered that you could use the `@font-face` rule in CSS to segm
 Anyway, the interesting code snippet that you need is:
 
 ~~~ css
-	@font-face {
-	    font-family: EzraSILW;
-	    src: url(SILEOT.woff);
-	    unicode-range: U+0590-05FF;
-	}
-	@font-face {
-	    font-family: GentiumPlusW;
-	    font-style: italic;
-	    src: url(GentiumPlus-I.woff);
-	    unicode-range: U+0370-03FF, U+1F00-1FFF;
-	}
-	body {
-	    font-family: EzraSILW, GentiumPlusW, Arial;
-	}
+@font-face {
+    font-family: EzraSILW;
+    src: url(SILEOT.woff);
+    unicode-range: U+0590-05FF;
+}
+@font-face {
+    font-family: GentiumPlusW;
+    font-style: italic;
+    src: url(GentiumPlus-I.woff);
+    unicode-range: U+0370-03FF, U+1F00-1FFF;
+}
+body {
+    font-family: EzraSILW, GentiumPlusW, Arial;
+}
 ~~~
 
 Three things to remember:
