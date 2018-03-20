@@ -7,6 +7,13 @@ p {
   line-height: 1.5;
   margin: 30px 0;
 }
+p a {
+  color: #0085a1;
+}
+p a:hover,
+p a:focus {
+  color: #005b6e;
+}
 h1,
 h2,
 h3,
@@ -17,11 +24,11 @@ h6 {
   font-weight: 800;
 }
 a {
-  color: #0085a1;
+  color: #404040;
 }
 a:hover,
 a:focus {
-  color: #005b6e;
+  color: #0085a1;
 }
 a img:hover,
 a img:focus {

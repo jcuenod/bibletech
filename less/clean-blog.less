@@ -14,6 +14,13 @@ body {
 p {
 	line-height: 1.5;
 	margin: 30px 0;
+	a {
+		color: @brand-primary;
+		&:hover,
+		&:focus {
+			color: darken(@brand-primary, 10%);
+		}
+	}
 }
 
 h1,
@@ -27,10 +34,10 @@ h6 {
 }
 
 a {
-	color: @brand-primary;
+	color: @gray-dark;
 	&:hover,
 	&:focus {
-		color: darken(@brand-primary, 10%);
+		color: @brand-primary;
 	}
 }
 
