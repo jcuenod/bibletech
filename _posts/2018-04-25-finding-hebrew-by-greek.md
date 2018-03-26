@@ -7,7 +7,7 @@ author: James Cuénod
 header-img: "img/post-bg-hebrew.jpg"
 ---
 
-Just yesterday there was a post over at [bibletech](https://bibleandtech.blogspot.com/) about how to find a Hebrew word only when the LXX translates it with a particular Greek word. Mark Hoffman has a helpful writeup on how to do it on Accordance, Logos and Bibleworks but I've got to say, [Parabible](https://parabible.com/) just makes it look a lot easier. So I thought I'd write up the equivalent method here, especially since I started writing this blog having been inspired by his content.
+Just yesterday there was a post over at the real [**bibletech**](https://bibleandtech.blogspot.com/) ([here](https://bibleandtech.blogspot.com/2018/03/finding-hebrew-words-translated-by.html)) about how to find a Hebrew word only when the LXX translates it with a particular Greek word. Mark Hoffman has a helpful writeup on how to do it on Accordance, Logos and Bibleworks but I've got to say, [Parabible](https://parabible.com/) just makes it look a lot easier. So I thought I'd write up the equivalent method here, especially since I started writing this blog having been inspired by his content.
 
 Before we begin, let's remember that there's no such thing as "The Septuagint" - with that in mind, Parabible's LXX data is not fantastic but it is free. Apparently, I may be using the same alignment data that Bibleworks uses though to get LXX lexemes on Hebrew words - so maybe it's not that bad...
 
