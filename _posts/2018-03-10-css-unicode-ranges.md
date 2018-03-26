@@ -2,7 +2,7 @@
 layout: post
 title:  "CSS Unicode Ranges"
 subtitle:  "Custom Hebrew and Greek fonts on the web, without spans!"
-date:   2018-04-10 14:00:00 +0300
+date:   2018-03-10 14:00:00 +0300
 author: James Cuénod
 header-img: "img/post-bg-hebrew.jpg"
 ---
