@@ -2,7 +2,7 @@
 layout: post
 title:  "Finding Hebrew Term By Greek Translation"
 subtitle:  "Parabible FTW"
-date:   2018-04-25 14:00:00 +0300
+date:   2018-03-25 14:00:00 +0300
 author: James Cuénod
 header-img: "img/post-bg-hebrew.jpg"
 ---
