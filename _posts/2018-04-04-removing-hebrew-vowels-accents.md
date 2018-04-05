@@ -7,6 +7,8 @@ author: James Cuénod
 header-img: "img/post-bg-hebrew.jpg"
 ---
 
+**Short version: [Remove Accents with this Tool](http://jcuenod.github.io/hebrewHelper)**
+
 To be clear, I'll freely admit I read with the Masoretes most of the time. It's far more important for me to figure out their interpretation than to strip it from the text. When submitting papers, however, accents make a lot less sense as words are embedded in different contexts. Indeed, sometimes publications won't even accept vowels.
 
 Up until now I've been manually removing accents and/or vowels by backspacing them out. Yes, you can actually backspace a single diacritic mark. It's just painful when there's one on every word...
