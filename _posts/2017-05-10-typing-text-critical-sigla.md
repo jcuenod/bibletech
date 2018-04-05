@@ -9,7 +9,7 @@ header-img: "img/post-bg-hebrew.jpg"
 
 This is not a complex problem to understand. There are a bunch of symbols that appear in our critical apparatuses. Most of them are weird gothic looking sigla that we don't know how to write. I found that they actually do exist in unicode but then I discovered that they don't look to great in the fonts I regularly use. Now I've discovered what seems to be the gold standard of font for critical apparatus sigla: SIL's [ApparatusSIL](http://scripts.sil.org/cms/scripts/page.php?item_id=ApparatusSIL).
 
-In short, the solution seems to be to use this ApparatusSIL for every text-critical sign in the document.
+In short, the solution seems to be to use this ApparatusSIL font for every text-critical sign in the document.
 
 To type these on Linux, I use `ctrl`+`shift`+`u` and then just type the unicode hex number. There must be a similar procedure for other Operating Systems but you can also just copy and paste the characters from the table below. Yes, because it's pointless to try to memorise the unicode values for these things and I can never find them when I want them, here's a nice list (they look a lot better in ApparatusSIL than your browser's current font take a look at the end of the [ApparatusSIL glyph pdf](http://scripts.sil.org/cms/scripts/render_download.php?format=file&media_id=ApparatusSIL_ViewGlyph&filename=ApparatusSIL_ViewGlyph.pdf)):
 
