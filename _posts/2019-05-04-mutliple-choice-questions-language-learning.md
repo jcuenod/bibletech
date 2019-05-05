@@ -22,7 +22,7 @@ Choose the correct gloss for λόγος:
 The student then has the job of elimitating the least likely contenders and (probably) also comparing the other words in the quiz only to see πλοῖον listed somewhere else. But if, on the other hand, you give students a quiz that looks like this:
 
 ```
-Gloss λόγος: \_\_\_\_\_\_\_
+Gloss λόγος: ________
 ```
 
 Grading can't be automated because of the amount of variation in possible answers.
