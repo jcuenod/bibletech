@@ -21,4 +21,24 @@ This was the project that paved the way for parabible. It's for the Old Testamen
 This one is a little older and it's for the NT. Doesn't search across different books but it's pretty handy in any case...
 
 
-*last updated: 2017.12.30*
+# Helper Projects
+
+I've made a bunch of smaller projects to do random little things
+
+ - https://jcuenod.github.io/hexicon/
+ I wanted a way to look up dictionary entries in BDB. I found a poorly formatted db and dumped it into firebase. This thing does a pretty neat job of helping you look up entries in it but it's kind of rough around the edges...
+
+ - https://jcuenod.github.io/findlexemes/
+ I wanted to be able to find lexemes that are listed in the ETCBC Hebrew data. This is a list of lexemes that you can search using hebrew or latin characters (latin is going to search the glosses). It's handy for finding cognates or lexemes that occur multiple times with different glosses or usage for whatever reason. It's also great for finding synonyms if you can think of English synonyms and search the glosses that way.
+
+ - https://jcuenod.github.io/hebrewHelper/
+ Sometimes you've just gotta strip accents out of chunnks of Hebrew text. This thing helps you do that.
+
+ - https://jcuenod.github.io/craftbrew/
+ Before I discovered the [SIL keyboard](https://jcuenod.github.io/bibletech/2017/12/01/enabling-sil-keyboard-layout-gnome-3/), I did not enjoy the prospect of learning a Hebrew keyboard layout. So made this thing that guess what you want to type based on phonetics. If it's not the character you wanted, just hit the key again and it will cycle through the options (e.g. "s" will produce sibilants). It also produces vowels unless there's already a vowel in which case, for example, an "a" will give you an aleph/ayin... So it tries to be a bit clever. I managed to get relatively proficient typing with it and the advantage was I never had to look at a keyboard map. I still can't figure out where צ or  ט are on the SIL layout (I just know roughly and hit the whole row until the right letter appears). So this was kind of cool. But, honestly, learn SIL...
+
+ - https://jcuenod.github.io/nlp/
+ This is the future of searching the Bible. It uses NLP to convert natural language searches into structured queries that it executes on parabible's search backend. It's awesome but wit.ai (owned by facebook) has decided to change their login system and so I believe I've lost access to the api for now and it's not working (and I refuse to create a new account with them). So for the time being, I think it's down. A problem I place squarely at the feet of facebook.
+
+
+*last updated: 2020.06.14*
