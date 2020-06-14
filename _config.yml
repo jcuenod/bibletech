@@ -5,7 +5,7 @@ email: j3frea@gmail.com
 copyright_name: James Cuénod
 description: "Blog on the intersection between the Bible and Technology. Writing about getting Bible things done using the computer - sometimes to do cool stuff, sometimes to do things that shouldn't be complicated but for some reason are."
 baseurl: "/bibletech"
-url: "http://jcuenod.github.io"
+url: "https://jcuenod.github.io"
 source_url: "https://github.com/jcuenod/bibletech"
 twitter_username: jamescuenod
 stackoverflow_userid: 123415
