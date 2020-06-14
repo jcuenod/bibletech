@@ -47,7 +47,7 @@ You'll probably normally do things like:
 
 So go ahead and do those things (especially adding the pdfs, I like that bit).
 
-You could, of course, back this up using git commands (as above). Or you could use my handy-dandy backup script from `https://github.com/jcuenod/zotero-backup-scripts`. Clone that repo somewhere and then symbolic link `backup.sh` to your `~/Zotero` folder.
+You could, of course, back this up using git commands (as above). Or you could use my handy-dandy backup script from <https://github.com/jcuenod/zotero-backup-scripts>. Clone that repo somewhere and then symbolic link `backup.sh` to your `~/Zotero` folder.
 
 ```
 cd ~/Zotero
