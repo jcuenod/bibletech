@@ -34,6 +34,9 @@ I've made a bunch of smaller projects to do random little things
  - <https://jcuenod.github.io/hebrewHelper/> <br />
  Sometimes you've just gotta strip accents out of chunnks of Hebrew text. This thing helps you do that.
 
+ - <https://jcuenod.github.io/hebrewTransliterate/> <br />
+ Very similar to the accent removal helper, this little webapp produces transliterated Hebrew for you that, I believe, conforms to SBL guidelines.
+
  - <https://jcuenod.github.io/craftbrew/> <br />
  Before I discovered the [SIL keyboard](https://jcuenod.github.io/bibletech/2017/12/01/enabling-sil-keyboard-layout-gnome-3/), I did not enjoy the prospect of learning a Hebrew keyboard layout. So made this thing that guess what you want to type based on phonetics. If it's not the character you wanted, just hit the key again and it will cycle through the options (e.g. "s" will produce sibilants). It also produces vowels unless there's already a vowel in which case, for example, an "a" will give you an aleph/ayin... So it tries to be a bit clever. I managed to get relatively proficient typing with it and the advantage was I never had to look at a keyboard map. I still can't figure out where צ or  ט are on the SIL layout (I just know roughly and hit the whole row until the right letter appears). So this was kind of cool. But, honestly, learn SIL...
 
