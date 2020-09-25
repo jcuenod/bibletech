@@ -23,6 +23,10 @@ Just want to match the whole unicode block relevant to biblical studies, this sh
 /[\u0590-\u05FF\uFB2A-\uFB4E]/.test("some string with Hebrew in it")
 ```
 
+# Why does this matter?
+
+There are a bunch of useful use cases for finding Hebrew characters. One would be so that I can identify pointed Hebrew in a document and remove it (which I can do using only a regex find and replace). Another would be to do the same kind of find and replace on <https://parabible.com> (my site to search Hebrew morphology in the Old Testament) when you copy text. I use it to remove accent/cantillation markers so that when you paste text somewhere it's formatted better for documents (I still intend to add a more general "remove all pointing option"). So we have a *why*, now for the *how*...
+
 # Relevant Unicode Blocks for Hebrew
 
 To begin with, it's worth noting the relevant unicode blocks. The **full block** is `\u0590-\u05FF`. We have the cantillation (`\u0591-\u05AF`), vowels (`\u05B0-\u05BB`), some other pointing (`\u05BC-\u05C7`), the alphabet (`\u05D0-\u05EA`) and some extras that I don't care about (`\u05Fx`). I have shamelessly stolen this table from <https://en.wikipedia.org/wiki/Unicode_and_HTML_for_the_Hebrew_alphabet>
