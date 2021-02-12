@@ -66,4 +66,4 @@ Admittedly, it took a while to be sure I'd ripped git-lfs out of my Zotero repo 
 
 And I've updated my backup scripts to account for this new oddity. In essence, they just run the split daily and add all the parts to the repo committing new and changed parts as appropriate (but the parts will probably all change every day because it's a binary file).
 
-Here you go: https://github.com/jcuenod/zotero-backup-scripts
+Here you go: <https://github.com/jcuenod/zotero-backup-scripts>
