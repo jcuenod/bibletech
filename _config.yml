@@ -1,7 +1,6 @@
 # Site settings
 title: BibleTech
 header-img: img/home-bg.jpg
-email: j3frea@gmail.com
 copyright_name: James Cuénod
 description: "Blog on the intersection between the Bible and Technology. Writing about getting Bible things done using the computer - sometimes to do cool stuff, sometimes to do things that shouldn't be complicated but for some reason are."
 baseurl: "/bibletech"
@@ -11,7 +10,6 @@ twitter_username: jamescuenod
 stackoverflow_userid: 123415
 github_username: jcuenod
 academia_username: JamesCuénod
-email_username: j3frea@gmail.com
 
 # Google Analytics
 # To enable google analytics, uncomment below line with a valid Google Tracking ID
