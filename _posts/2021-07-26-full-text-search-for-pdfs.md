@@ -19,7 +19,7 @@ I have a bunch (thousands) of pdfs in my Zotero storage. I want to find places w
 
 [SQLite](https://www.sqlite.org) is basically one of the most amazing technologies in existence. It's a database in a file and it is great! One of the cool features that it has is call FTS, [full-text search](https://www.sqlite.org/fts5.html).
 
-To create a table that uses Full-Text search, you've do this:
+To create a table that uses Full-Text search, you create a `virtual table`:
 
 ```sql
 CREATE VIRTUAL TABLE EXISTS pdf_content USING fts5(
@@ -100,7 +100,7 @@ SELECT
     pages.id = metadata.rowid) fts
 ```
 
-This query works like a charm but I very quickly found that some pdfs were *full* of matches and that made the results pretty noisy. So I wanted to `GROUP BY`. Something like this:
+This query works like a charm but I very quickly found that some pdfs were *full* of matches and that made the results pretty noisy. So I wanted to `GROUP BY` pdf. Something like this:
 
 ```sql
 SELECT 
@@ -123,7 +123,7 @@ FROM (
 GROUP BY rowid
 ```
 
-The inner query here is identical to the one above. All that I'm doing is trying to `GROUP BY rowid` (rowid is a hidden column that SQLite automatically adds as a `PRIMARY KEY` to your tables [with some exceptions]). Grouping by `rowid` should mean that a pdf should never show up in the results more than once. This obviously suppresses the prominence of PDFs that have tons of matches but it also surfaces more interesting results because I probably already knew about the ones with tons of matches.
+The inner query here is identical to the one above. All that I'm doing is trying to `GROUP BY rowid` (rowid is a hidden column that SQLite automatically adds as a `PRIMARY KEY` to your tables [with some exceptions]). Grouping by `rowid` means a pdf will never show up in the results more than once. This obviously suppresses the prominence of PDFs that have tons of matches but it also surfaces more interesting results because I probably already knew about the ones with tons of matches.
 
 If I run the query above with only `SELECT name FROM ...` (and drop the `group_concat` lines from the `SELECT`), it works as expected. I can add in the `group_concat` for pages and the query continues working. Now it produces a comma separated list of matching page numbers. The last step is to get my snippet/extract back (which was working in the previous query). But when I run it with `group_concat(extract ...` I get:
 
