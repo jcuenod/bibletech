@@ -7,10 +7,13 @@ author: James Cuénod
 header-img: "img/post-bg-04.jpg"
 ---
 
+# TLDR
+
+Scroll to the end and watch the gif of what this does. I think it's pretty cool :)
 
 # The Problem
 
-I have a bunch (thousands) of pdfs in my Zotero storage. I want to find places where any of those pdfs mention particular content. But I want searches that are more sophisticated than just phrase searches.
+I have a bunch (thousands) of pdfs in my Zotero storage. I want to find places where any of those pdfs mention particular content. But I want searches that are more sophisticated than just 'exact phrase' searches.
 
 # Full Text Search with Sqlite
 
@@ -64,14 +67,9 @@ async function getPdfText(path) {
     for (let i = 0; i < doc.numPages; i++) {
         const page = await doc.getPage(i + 1)
         const content = await page.getTextContent()
-        let strings = content.items.map(function (item) {
+        let output = content.items.map(item => {
             return item.str
-        })
-        const output = strings
-            .join(" ")
-            .replace(/\ -\ /g, "")
-            .replace(/  /g, " ")
-            .replace(/  /g, " ")
+        }).join(" ")
         pageText.push(output)
     }
     return pageText.map(page => page.trim())
