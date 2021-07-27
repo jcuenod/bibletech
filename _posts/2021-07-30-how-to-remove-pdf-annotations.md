@@ -7,7 +7,7 @@ author: James Cuénod
 header-img: "img/post-bg-04.jpg"
 ---
 
-I periodically want to remove annotations from PDFs for all kinds of reasons. For example, I want to give the PDF to a student without all my comments and highlights. Or, more recently, I want to re-OCR the PDF but I'd highlighted an older version.
+I periodically want to remove annotations from PDFs for all kinds of reasons. For example, I want to give the PDF to a student without all my comments and highlights. Or, more recently, I want to re-OCR the PDF but I'd already highlighted the original.
 
 There's a perl program that does this easily called [rewritepdf.pl](https://metacpan.org/dist/CAM-PDF/view/bin/rewritepdf.pl), which is a part of [CAM:PDF](https://metacpan.org/pod/CAM::PDF).
 
