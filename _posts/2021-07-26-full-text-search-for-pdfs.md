@@ -9,7 +9,9 @@ header-img: "img/post-bg-04.jpg"
 
 # TLDR
 
-Scroll to the end and watch the gif of what this does. I think it's pretty cool :)
+The final product looks like this:
+
+![PDF Full-Text Search using SQLite snippets and GROUP BY](https://raw.githubusercontent.com/jcuenod/pdfindex-client/master/demo.gif)
 
 # The Problem
 
@@ -181,8 +183,7 @@ Part of the frustration with this problem is that neither `highlight` nor `snipp
 
 # Finishing it Off
 
-The final step is to make an interface that doesn't require this cumbersome query to get a set of results and that doesn't force me to visually grep the results in a terminal. Thus, sprinkle some express magic and you have a server that responds to `/query?q=search terms` (which is now [here](https://github.com/jcuenod/pdfindex-server)) and then sprinkle some react magic and you have a client that debounces requests and produces results on the fly ([here](https://github.com/jcuenod/pdfindex-client)).
-
-It looks something like this:
+The final step is to make an interface that doesn't require this cumbersome query to get a set of results and that doesn't force me to visually grep the results in a terminal. Thus, sprinkle some express magic and you have a server that responds to `/query?q=search terms` (which is now [here](https://github.com/jcuenod/pdfindex-server)) and then sprinkle some react magic and you have a client that debounces requests and produces results on the fly ([here](https://github.com/jcuenod/pdfindex-client)). At this point, after pointing the server to our SQLite index and the client to our server, we are back at the TLDR...
 
 ![PDF Full-Text Search using SQLite snippets and GROUP BY](https://raw.githubusercontent.com/jcuenod/pdfindex-client/master/demo.gif)
+
