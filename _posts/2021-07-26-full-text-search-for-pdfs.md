@@ -2,7 +2,7 @@
 layout: post
 title:  "Full-Text Search for Zotero PDFs"
 subtitle:  "Google books for your personal digital library"
-date:   2021-07-27 11:00:00 -0600
+date:   2021-07-26 11:00:00 -0600
 author: James Cuénod
 header-img: "img/post-bg-04.jpg"
 ---
