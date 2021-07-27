@@ -15,7 +15,7 @@ The final product looks like this:
 
 # The Problem
 
-I have a bunch (thousands) of pdfs in my Zotero storage. I want to find places where any of those pdfs mention particular content. But I want searches that are more sophisticated than just 'exact phrase' searches.
+I have a bunch (thousands) of PDFs in my Zotero storage. I want to find places where any of those PDFs mention particular content. But I want searches that are more sophisticated than just 'exact phrase' searches.
 
 # Full Text Search with Sqlite
 
@@ -45,7 +45,7 @@ WHERE
   content MATCH 'NEAR("search" "terms")'
 ```
 
-The snippet function is a bit opaque but it's signature is:
+The snippet function is a bit opaque but its signature is:
 
 - `pdf_content`: Name of the table
 - `2`: Index of the column (zero based)
@@ -81,7 +81,7 @@ module.exports = { getPdfText }
 
 As you can see, a combination of `doc.getPage()` and `page.getTextContent()` gets the content of each page. The `getPdfText` function returns a (promise) array of content. Each page is an element in the array.
 
-The combination of an FTS table in SQLite and this PDF-text-extractor can be found at `https://github.com/jcuenod/pdfindex-create-index/`. This repo also builds a metadata table that stores the name, size, and path of the pdf (so that I can, in theory, tell if I've already indexed it and just skip over it).
+The combination of an FTS table in SQLite and this PDF-text-extractor can be found at `https://github.com/jcuenod/pdfindex-create-index/`. This repo also builds a metadata table that stores the name, size, and path of the PDF (so that I can, in theory, tell if I've already indexed it and just skip over it).
 
 # Querying
 
@@ -102,7 +102,7 @@ SELECT
     pages.id = metadata.rowid) fts
 ```
 
-This query works like a charm but I very quickly found that some pdfs were *full* of matches and that made the results pretty noisy. So I wanted to `GROUP BY` pdf. Something like this:
+This query works like a charm but I very quickly found that some PDFs were *full* of matches and that made the results pretty noisy. So I wanted to `GROUP BY` PDF. Something like this:
 
 ```sql
 SELECT 
@@ -125,7 +125,7 @@ FROM (
 GROUP BY rowid
 ```
 
-The inner query here is identical to the one above. All that I'm doing is trying to `GROUP BY rowid` (rowid is a hidden column that SQLite automatically adds as a `PRIMARY KEY` to your tables [with some exceptions]). Grouping by `rowid` means a pdf will never show up in the results more than once. This obviously suppresses the prominence of PDFs that have tons of matches but it also surfaces more interesting results because I probably already knew about the ones with tons of matches.
+The inner query here is identical to the one above. All that I'm doing is trying to `GROUP BY rowid` (rowid is a hidden column that SQLite automatically adds as a `PRIMARY KEY` to your tables [with some exceptions]). Grouping by `rowid` means a PDF will never show up in the results more than once. This obviously suppresses the prominence of PDFs that have tons of matches but it also surfaces more interesting results because I probably already knew about the ones with tons of matches.
 
 If I run the query above with only `SELECT name FROM ...` (and drop the `group_concat` lines from the `SELECT`), it works as expected. I can add in the `group_concat` for pages and the query continues working. Now it produces a comma separated list of matching page numbers. The last step is to get my snippet/extract back (which was working in the previous query). But when I run it with `group_concat(extract ...` I get:
 
