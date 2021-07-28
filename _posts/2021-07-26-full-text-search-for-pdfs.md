@@ -81,7 +81,7 @@ module.exports = { getPdfText }
 
 As you can see, a combination of `doc.getPage()` and `page.getTextContent()` gets the content of each page. The `getPdfText` function returns a (promise) array of content. Each page is an element in the array.
 
-The combination of an FTS table in SQLite and this PDF-text-extractor can be found at `https://github.com/jcuenod/pdfindex-create-index/`. This repo also builds a metadata table that stores the name, size, and path of the PDF (so that I can, in theory, tell if I've already indexed it and just skip over it).
+The combination of an FTS table in SQLite and this PDF-text-extractor can be found at <https://github.com/jcuenod/pdfindex-create-index/>. This repo also builds a metadata table that stores the name, size, and path of the PDF (so that I can, in theory, tell if I've already indexed it and just skip over it).
 
 # Querying
 
