@@ -12,7 +12,7 @@ I OCR all the PDFs that the library sends me or that I scan myself so that (1) I
 Sometimes, though, I get a rubbish scan that has too much colour and not enough contrast or brightness. The solution is Imagemagick. Here's the incantation I found to help out my latest troublesome PDF:
 
 ```
-convert input.pdf -colorspace gray -density 300 -brightness-contrast 5x25 -sharpen 0x1 output.pdf
+convert -colorspace gray -density 300 -brightness-contrast 5x25 -sharpen 0x1 input.pdf output.pdf
 ```
 
 So I'm:
