@@ -9,7 +9,7 @@ header-img: "img/post-bg-hebrew.jpg"
 
 # The Goal
 
-I have come a long way since making my own hebrew typing assistant tool called [craftbrew]](https://jcuenod.github.io/craftbrew/), still one of the best names I've ever come up with. I now type using SIL's Hebrew keyboard layout regularly. I wrote about setting that up here. The problem I encountered is that I can't figure out how to type hatef vowels. While writing this post, I realized that I totally forget that I [already solved this problem](https://jcuenod.github.io/bibletech/2018/01/01/an-even-better-hebrew-keyboard-layout/) by using a different keyboard layout. But here's another solution that will hopefully help understand how keyboard layouts work a bit more...
+I have come a long way since making my own hebrew typing assistant tool called [craftbrew](https://jcuenod.github.io/craftbrew/), still one of the best names I've ever come up with. I now type using SIL's Hebrew keyboard layout regularly. I wrote about setting that up here. The problem I encountered is that I can't figure out how to type hatef vowels. While writing this post, I realized that I totally forget that I [already solved this problem](https://jcuenod.github.io/bibletech/2018/01/01/an-even-better-hebrew-keyboard-layout/) by using a different keyboard layout. But here's another solution that will hopefully help understand how keyboard layouts work a bit more...
 
 # What are Levels?
 
