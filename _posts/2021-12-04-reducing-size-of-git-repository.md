@@ -24,7 +24,7 @@ $ du -h | grep git
 
 Everything that's not hidden in my Zotero folder was taking up about 4GB. In other words, my git folder now exceeds the size of my Zotero folder by over 200%...
 
-# Gitting a Smaller
+# Gitting a bit Smaller
 
 Git comes to the rescue with "garbage collection". I don't know what it does but it makes things smaller:
 
