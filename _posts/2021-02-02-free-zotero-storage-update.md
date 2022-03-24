@@ -7,6 +7,7 @@ author: James Cuénod
 header-img: "img/post-bg-hebrew.jpg"
 ---
 
+**[NOTE] The solution listed here was quickly superseded by the solution here: <https://jcuenod.github.io/bibletech/2021/02/12/another-zotero-backup-update/>**
 
 # The Backstory
 
