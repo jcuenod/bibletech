@@ -29,7 +29,7 @@ find . -type f -name "*.od*" | while read i ; do
 done
 ```
 
-> source: <https://askubuntu.com/a/938914>
+*source: <https://askubuntu.com/a/938914>*
 
 When I ran this, I modified the script to only search files whose names match `*.odt` (not `*.od*`), but that's not required.
 
