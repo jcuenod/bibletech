@@ -1,7 +1,6 @@
-
 ---
 layout: post
-title:  "Reading CSV files with a CLI"
+title:  "Reading CSV Files With a CLI"
 subtitle:  "An on the fly formatting alias for CSVs"
 date:   2022-06-03 14:00:00 +0300
 author: James Cuénod
@@ -12,7 +11,7 @@ header-img: "img/post-bg-06.jpg"
 
 I open/print out a CSV file and something like this happens:
 
-[Ugly print CSV](/bibletech/img/post-images/print-csv.png)
+![Ugly print CSV](/bibletech/img/post-images/print-csv.png)
 
 # The Solution
 
@@ -44,4 +43,4 @@ function ppcsv {
 
 And voila:
 
-[Pretty print CSV](/bibletech/img/post-images/pp-csv.png)
+![Pretty print CSV](/bibletech/img/post-images/pp-csv.png)
