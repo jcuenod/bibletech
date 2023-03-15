@@ -26,9 +26,9 @@ Wouldn't it be nice if there were a magical way to turn that table into a nicely
 
 Brian Hicks just [posted about doing this](https://bytes.zone/posts/aligning-markdown-tables-in-helix/) in `helix`, a modal editor comparable to `neovim` in various ways. I have been using `neovim` for a while, though, so I wondered how to accomplish the same thing.
 
-I assumed that there might be some plugin or at least a way to pipe the table to `column`, a tool I've used to [format CSVs on the command line](/bibletech/2022/06/03/reading-csv-on-the-cli/). The answer was found in a [comment on lobste.rs](https://lobste.rs/s/fqgzrk/aligning_markdown_tables_helix). In short, you pipe the table to `pandoc`.
+I assumed that there might be some plugin or at least a way to pipe the table to `column`, a tool I've used to [format CSVs on the command line](/bibletech/2022/06/03/reading-csv-on-the-cli/). The answer was found in a [comment by _@CalebMaclennan_ on lobste.rs](https://lobste.rs/s/fqgzrk/aligning_markdown_tables_helix). In short, you pipe the table to `pandoc`.
 
-The solution he suggests is:
+The solution Maclennan suggests is:
 
 ```
 vip:!pandoc -t markdown-simple_tables
