@@ -17,7 +17,7 @@ You're writing a markdown file and you need a table. No problem, there's a stand
 | 11092 | Gorilla Fist | 27 |
 | 11212 | Plate 3 x 3 | 14 |
 | 11209 | Tyre 21 x 9.9 | 29 |
-| 11640pr0003 | ELECTRIC GUITAR SHAFT Ø3.2 NO. 3 | 27 |
+| 11640 | ELECTRIC GUITAR SHAFT Ø3.2 NO. 3 | 27 |
 ```
 
 Wouldn't it be nice if there were a magical way to turn that table into a nicely structured one? (like at the end of this post). Well there is.
@@ -46,12 +46,12 @@ Let's break that down for a sec:
 	3. With just `markdown`, the table will get a horizontal separator for the `thead` but not vertical separators. The `-simple_tables` modifier tells pandoc to add the `|` between cells.
 
 ```
-| ID          | Name                             | Category ID |
-|-------------|----------------------------------|-------------|
-| 11092       | Gorilla Fist                     | 27          |
-| 11212       | Plate 3 x 3                      | 14          |
-| 11209       | Tyre 21 x 9.9                    | 29          |
-| 11640pr0003 | ELECTRIC GUITAR SHAFT Ø3.2 NO. 3 | 27          |
+| ID    | Name                             | Category ID |
+|-------|----------------------------------|-------------|
+| 11092 | Gorilla Fist                     | 27          |
+| 11212 | Plate 3 x 3                      | 14          |
+| 11209 | Tyre 21 x 9.9                    | 29          |
+| 11640 | ELECTRIC GUITAR SHAFT Ø3.2 NO. 3 | 27          |
 ```
 
 # Tying it Together
