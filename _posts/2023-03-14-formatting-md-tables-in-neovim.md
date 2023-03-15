@@ -59,7 +59,7 @@ Let's break that down for a sec:
 In `neovim` (and `vim`), you can map commands to keys. In my `init.lua`,  I added this line:
 
 ```
-vim.keymap.set('v', '<leader>t', '!pandoc -t markdown-simple_tables+pipe_tables<CR>',
+vim.keymap.set('v', '<leader>t', '!pandoc -t markdown-simple_tables<CR>',
   { silent = true, desc = 'Align selected md table using pandoc' })
 ```
 
