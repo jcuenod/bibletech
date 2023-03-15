@@ -63,4 +63,4 @@ vim.keymap.set('v', '<leader>t', '!pandoc -t markdown-simple_tables+pipe_tables<
   { silent = true, desc = 'Align selected md table using pandoc' })
 ```
 
-Now, when I'm in visual mode (specified by 'v' in the function call), I can select my table (with something like `vip`, hit `<leader>` (I've set mine to space) and then `t` et. voila: beautifully formatted table. You're welcome. 
+Now, when I'm in visual mode (specified by 'v' in the function call), I can select my table (with something like `vip`, hit `<leader>` (I've set mine to space) and then `t` et voila: beautifully formatted table. You're welcome. 
