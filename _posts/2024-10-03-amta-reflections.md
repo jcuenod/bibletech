@@ -9,7 +9,7 @@ header-img: "img/post-bg-hebrew.jpg"
 
 - **Post-editing** workflows:
 	- Semantic divergence
-		- (see https://www.proquest.com/openview/3145eaf5b2b930c434b6afd1766294e8/1?pq-origsite=gscholar&cbl=18750&diss=y)
+		- (see [the dissertation](https://www.proquest.com/openview/3145eaf5b2b930c434b6afd1766294e8/1?pq-origsite=gscholar&cbl=18750&diss=y))
 			- This paper shows that semantic divergences *do* negatively affect trained models (leading to model collapse). I don't think the author tried labelling the types of divergence during training (which I suspect may have improved results, but would still require her work on labelling).
 			- There was some awesome work on classifying divergences and identifying the specific words/phrases for a user. The author also measured the impact on translation speed of showing these details to a user and found significant advantages.
 		- Some thoughts:
