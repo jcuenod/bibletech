@@ -27,7 +27,8 @@ header-img: "img/post-bg-hebrew.jpg"
 	- That said, we don't have a definition for low resource (Cantonese was counted as low-resource, for example)
 - Quality assurance is an issue.
 	- Document level consistency came up a bunch of times. LLMs were slated as a solution because, instead of translating segments (sentences), they can do larger chunks and more reliably take context (including key terms) into account.
-	- There was some resonance with legal translation challenges, where key term translation is critical. LLMs were again slated as a (partial) solution, because they allow us to put stuff like glossaries in context. 
+	- There was some resonance with legal translation challenges, where key term translation is critical. LLMs were again slated as a (partial) solution, because they allow us to put stuff like glossaries in context.
+	- I thoughts that LLMs would have more "hallucination" issues. One of the presenters pointed out, though, that, while there are issues with hallucinations, we call them "hallucinations" when they come out of LLMs. When they come out of Seq2Seq models, we just call them "mistranslations" and when he measured outputs, there were the same number of issues either way (I assume the LLMs he tested had orders of magnitude more paramaters than the seq2seq models, though).
 
 **Ideas**:
 - Let's do ngram selection to identify closest related languages in ebible and augment training data (we could use this in NLLB)
