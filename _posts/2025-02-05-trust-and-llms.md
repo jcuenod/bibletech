@@ -11,7 +11,7 @@ Let’s say we don’t want our data scarfed down by the hungry hungry LLM train
 
 ## Untrusted Providers
 
-The default is really providers that we can't trust with our data. There are two kinds of providers in this category. On one hand, we have the vendors who sweetly swear they won't train on our data, but you can hear they have a rumbly in their tumbly and they just want a small smackerel of something sweet (this is the concern with [Deepseek]()). On the other hand, we've got the brutally honest bunch who just flat-out tell us they're going to feast on our data buffet (see the free versions from OpenAI and Google, where they tell you [your data will be used for training](https://ai.google.dev/pricing)).  Either way, your data is probably ending up in the data stew.
+The default is really providers that we can't trust with our data. There are two kinds of providers in this category. On one hand, we have the vendors who sweetly swear they won't train on our data, but you can hear they have a rumbly in their tumbly and they just want a small smackerel of something sweet (this is the concern with [Deepseek](https://www.deepseek.com/)). On the other hand, we've got the brutally honest bunch who just flat-out tell us they're going to feast on our data buffet (see the free versions from OpenAI and Google, where they tell you [your data will be used for training](https://ai.google.dev/pricing)).  Either way, your data is probably ending up in the data stew.
 
 ## Trusted Providers (Unaligned Incentives)
 
@@ -29,7 +29,7 @@ Two subsections under this category:
 
 ## Trusted Computing
 
-Of course, the above approaches are subject to third party attacks and leaks. If you host a model on AWS and some attacker is monitoring your VM, it's not private after all. This is true all the way back up the stack. Want to take trust out of the equation altogether? Enter Trusted Computing! This is where your LLM computations happen in a secure enclave, a sort of digital fortress within the processor.  It's like having a tiny, tamper-proof room where your data and the model can dance without anyone peeking or pilfering. The provider can host the hardware, but even *they* can't easily snoop on what’s happening inside the enclave. Think Fort Knox for your LLM queries. This is what Apple pitched as [Private Cloud Compute](https://security.apple.com/blog/private-cloud-compute/) and it's also what [Tinfoil](tinfoil.sh) are selling.
+Of course, the above approaches are subject to third party attacks and leaks. If you host a model on AWS and some attacker is monitoring your VM, it's not private after all. This is true all the way back up the stack. Want to take trust out of the equation altogether? Enter Trusted Computing! This is where your LLM computations happen in a secure enclave, a sort of digital fortress within the processor.  It's like having a tiny, tamper-proof room where your data and the model can dance without anyone peeking or pilfering. The provider can host the hardware, but even *they* can't easily snoop on what’s happening inside the enclave. Think Fort Knox for your LLM queries. This is what Apple pitched as [Private Cloud Compute](https://security.apple.com/blog/private-cloud-compute/) and it's also what [Tinfoil](https://tinfoil.sh) are selling.
 
 ## End to End Encryption
 
