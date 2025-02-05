@@ -11,7 +11,7 @@ Let’s say we don’t want our data scarfed down by the hungry hungry LLM train
 
 ## Untrusted Providers
 
-The default is really providers that we can't trust with our data. There are two kinds of providers in this category. On one hand, we have the vendors who sweetly swear they won't train on our data, but you can hear they have a rumbly in their tumbly and they just want a small smackerel of something sweet (this is the concern with [Deepseek](https://www.deepseek.com/)). On the other hand, we've got the brutally honest bunch who just flat-out tell us they're going to feast on our data buffet (see the free versions from OpenAI and Google, where they tell you [your data will be used for training](https://ai.google.dev/pricing)).  Either way, your data is probably ending up in the data stew.
+The default is really providers that we can't trust with our data. There are two kinds of providers in this category. On one hand, we have the vendors who sweetly swear they won't train on our data, but you can hear they have a rumbly in their tumbly and they just want a small smackerel of something sweet (this is the concern with [Deepseek](https://www.deepseek.com/)). On the other hand, we've got the brutally honest bunch who just flat-out tell us they're going to feast on our data buffet (see the free versions from OpenAI and Google, where they tell you your data will be ["Used to improve our products"](https://ai.google.dev/pricing)).  Either way, they're going to take a byte of your data ;)
 
 ## Trusted Providers (Unaligned Incentives)
 
