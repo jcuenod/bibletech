@@ -1,5 +1,5 @@
 title = "BibleTech"
-baseURL = 'https://jcuenod.github.io/'
+baseURL = 'https://jcuenod.github.io/bibletech'
 
 # This is what goes in <html lang="">
 languageCode = 'en-US'
