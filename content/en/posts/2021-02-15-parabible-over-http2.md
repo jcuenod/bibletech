@@ -2,6 +2,7 @@
 layout: post
 title:  "Enable HTTP/2 for Parabible"
 subtitle:  "It's easier than you think"
+slug: "parabible-over-http2"
 date:   2021-02-15 11:00:00 -0600
 author: James Cuénod
 header-img: "img/post-bg-04.jpg"

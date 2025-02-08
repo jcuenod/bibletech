@@ -2,6 +2,7 @@
 layout: post
 title:  "Free Zotero Backups with Version Control"
 subtitle:  "Just because it's not code doesn't mean we can't roll it back"
+slug: "zotero-github-backups"
 date:   2020-06-14 14:00:00 +0300
 author: James Cuénod
 header-img: "img/post-bg-hebrew.jpg"

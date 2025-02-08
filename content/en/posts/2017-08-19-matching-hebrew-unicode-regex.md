@@ -2,6 +2,7 @@
 layout: post
 title:  "Hebrew Unicode Regex Matching"
 subtitle:  "Stand back, I know regular expressions"
+slug: "matching-hebrew-unicode-regex"
 date:   2017-08-19 14:00:00 +0300
 author: James Cuénod
 header-img: "img/post-bg-hebrew.jpg"

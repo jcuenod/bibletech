@@ -2,7 +2,7 @@
 layout: post
 title:  "Enabling SIL Keyboard Layout on Gnome 3"
 subtitle:  "Because it's hidden by default"
-slug: "enabling-sil-keyboard-layout-on-gnome-3"
+slug: "enabling-sil-keyboard-layout-gnome-3"
 date:   2017-12-01 14:00:00 +0300
 author: James Cuénod
 header-img: "img/post-bg-hebrew.jpg"

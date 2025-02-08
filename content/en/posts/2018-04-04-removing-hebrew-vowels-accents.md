@@ -2,6 +2,7 @@
 layout: post
 title:  "Removing Hebrew Vowels and/or Accents"
 subtitle:  "Because who needs the Masoretes?"
+slug: "removing-hebrew-vowels-accents"
 date:   2018-04-04 14:00:00 +0300
 author: James Cuénod
 header-img: "img/post-bg-hebrew.jpg"

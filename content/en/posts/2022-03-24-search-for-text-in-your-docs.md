@@ -2,6 +2,7 @@
 layout: post
 title:  "Searching for Text in Documents"
 subtitle:  "Grep your .odt files"
+slug: "search-for-text-in-your-docs"
 date:   2022-03-24 14:00:00 +0300
 author: James Cuénod
 header-img: "img/post-bg-06.jpg"

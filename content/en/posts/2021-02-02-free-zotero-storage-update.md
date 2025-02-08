@@ -2,6 +2,7 @@
 layout: post
 title:  "Update Regarding Free Zotero File Storage"
 subtitle:  "We need to use git lfs"
+slug: "free-zotero-storage-update"
 date:   2021-02-02 11:00:00 -0600
 author: James Cuénod
 header-img: "img/post-bg-hebrew.jpg"

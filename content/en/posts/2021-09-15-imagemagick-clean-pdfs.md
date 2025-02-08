@@ -2,6 +2,7 @@
 layout: post
 title:  "Imagemagick to Clean PDFs"
 subtitle:  "Using Imagemagick to make OCR work better"
+slug: "imagemagick-clean-pdfs"
 date:   2021-09-15 11:00:00 -0600
 author: James Cuénod
 header-img: "img/post-bg-04.jpg"

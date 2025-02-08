@@ -2,6 +2,7 @@
 layout: post
 title:  "Multiple Choice Questions for Language Acquisition"
 subtitle:  "Gradable Quizzes that don't give away the answer"
+slug: "multiple-choice-questions-language-learning"
 date:   2019-05-04 14:00:00 +0300
 author: James Cuénod
 header-img: "img/contact-bg.jpg"

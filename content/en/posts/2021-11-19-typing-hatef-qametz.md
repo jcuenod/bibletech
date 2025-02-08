@@ -2,6 +2,7 @@
 layout: post
 title:  "Typing Hatef Characters"
 subtitle:  "You have achieved level 3"
+slug: "typing-hatef-qametz"
 date:   2021-11-19 14:00:00 +0300
 author: James Cuénod
 header-img: "img/post-bg-hebrew.jpg"

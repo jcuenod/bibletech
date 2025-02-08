@@ -2,6 +2,7 @@
 layout: post
 title:  "Reading CSV Files With a CLI"
 subtitle:  "An on the fly formatting alias for CSVs"
+slug: "reading-csv-on-the-cli"
 date:   2022-06-03 14:00:00 +0300
 author: James Cuénod
 header-img: "img/post-bg-06.jpg"

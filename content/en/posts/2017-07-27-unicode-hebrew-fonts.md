@@ -2,6 +2,7 @@
 layout: post
 title:  "Biblical Hebrew Fonts"
 subtitle:   "Finding fonts that support Biblical Hebrew and look good"
+slug: "unicode-hebrew-fonts"
 date:   2017-07-27 14:00:00 +0300
 author: James Cuénod
 header-img: "img/post-bg-hebrew.jpg"

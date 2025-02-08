@@ -2,6 +2,7 @@
 layout: post
 title:  "Reducing the Size of a Git Repository"
 subtitle:  "For when you use Github to backup your Zotero Documents"
+slug: "reducing-size-of-git-repository"
 date:   2021-12-04 14:00:00 +0300
 author: James Cuénod
 header-img: "img/post-bg-06.jpg"
