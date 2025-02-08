@@ -2,6 +2,7 @@
 layout: post
 title:  "Formatting Markdown Tables in Neovim"
 subtitle:  "Pipe them to Pandoc"
+slug:  "formatting-md-tables-in-neovim"
 date:   2023-03-14 14:00:00 +0300
 author: James Cuénod
 header-img: "img/post-bg-06.jpg"
