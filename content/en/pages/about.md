@@ -1,23 +1,16 @@
 ---
 title: About
-description: 'Hugo, the world''s fastest framework for building websites'
-author: Hugo Authors
+description: "For you interweb stalkers out there"
+author: James Cuénod
 ---
 
-Written in Go, Hugo is an open source static site generator available under the [Apache Licence 2.0.](https://github.com/gohugoio/hugo/blob/master/LICENSE) Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.
+Hi there! My name is [James Cuénod](https://jcuenod.github.io/) and you have found what basically amounts to my quick 'n dirty notes to myself. I have two basic interests: *biblical studies* (especially the Old Testament) and *software development*. In 2017, my interest in software led me to begin exploring ML and I've worked on a number NLP-related projects since then (before the inimitable ChatGPT).
 
-Hugo makes use of a variety of open source projects including:
+Currently I am the **Senior AI Translation Technologist** at Seed Company. I moved to Seed Co from Clear Bible/Biblica. Before that I was a PhD student at Wheaton College studying **Old Testament** where I wrote on **Sabbath Theology**.
 
-* https://github.com/yuin/goldmark
-* https://github.com/alecthomas/chroma
-* https://github.com/muesli/smartcrop
-* https://github.com/spf13/cobra
-* https://github.com/spf13/viper
+I have a number of [software projects](https://github.com/jcuenod) that cycle through periods of activity. Two that are in production and have daily active users are:
 
-Hugo is ideal for blogs, corporate websites, creative portfolios, online magazines, single page applications or even a website with thousands of pages.
+* https://parabible.com
+* https://fixpdfs.com
 
-Hugo is for people who want to hand code their own website without worrying about setting up complicated runtimes, dependencies and databases.
-
-Websites built with Hugo are extremely fast, secure and can be deployed anywhere including, AWS, GitHub Pages, Heroku, Netlify and any other hosting provider.
-
-Learn more and contribute on [GitHub](https://github.com/gohugoio).
+If you have any questions or want to hunt me down for some reason (other than malice), please feel free to make contact.
