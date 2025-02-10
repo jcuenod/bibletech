@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 //////////////// 1. Light Colors /////////////////
 $text-base-color: #434648;
 $text-link-blue: #003fff;
@@ -35,7 +37,7 @@ $dark-smoke: #4a4d56;
 $dark-gray: #767f87;
 
 //////////////// 3. Fonts preferences /////////////////
-$sans-family: Roboto, sans-serif;
+$sans-family: Montserrat, sans-serif;
 $mono-family: Consolas, monospace;
 $base-font-size: 16px;
 $medium-font-size: $base-font-size * 0.938;
@@ -74,7 +76,7 @@ $on-widescreen: 1152px;
 
 //////////////// 5. Import all sass files /////////////////
 
-@import "fonts";
+// @import "fonts";
 @import "base";
 @import "navbar";
 @import "layout";

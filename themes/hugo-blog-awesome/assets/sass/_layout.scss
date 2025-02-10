@@ -79,6 +79,8 @@ a.post-item {
         flex-direction: column;
 
         .title {
+          font-family: "EB Garamond", serif;
+          font-size: 1.2rem;
           font-weight: $bold-weight;
         }
       }
