@@ -56,13 +56,13 @@ a.post-item {
   
   // link specific styles
   text-decoration: none;
-  color: $text-base-color !important;
+  color: $text-base-color;
   transition: all 150ms ease-in 0s;
 
   &:hover,
-  &focus {
-    color: $black !important;
-    background-color: $go-top-bg;
+  &:focus {
+    color: $black;
+    background-color: $toc-bg;
   }
 
   // children

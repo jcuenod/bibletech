@@ -40,10 +40,11 @@
       }
     }
 
+    
     h3 {
       border-color: $dark-light;
     }
-
+    
     h1,
     h2,
     h3,
@@ -52,6 +53,28 @@
     h6 {
       .anchor-head {
         color: $dark-text-link-blue;
+      }
+    }
+  }
+  
+  .post-item {
+    color: $dark-white;
+
+    &:hover,
+    &:focus {
+      color: $dark-white;
+      background-color: $dark-toc-bg;
+    }
+  }
+
+  .page-content {
+    .post-item {
+      color: $dark-white;
+  
+      &:hover,
+      &:focus {
+        color: $dark-white;
+        background-color: $dark-toc-bg;
       }
     }
   }

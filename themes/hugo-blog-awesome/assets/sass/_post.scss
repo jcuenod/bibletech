@@ -81,6 +81,10 @@
     &:focus {
       color: $text-link-blue;
     }
+
+    &.post-item {
+      color: $black;
+    }
   }
 
   > p {
@@ -184,7 +188,7 @@
     &:hover,
     &:focus {
       .post-title {
-        color: $text-link-blue-active;
+        // color: $text-link-blue-active;
         opacity: 0.9;
       }
     }
