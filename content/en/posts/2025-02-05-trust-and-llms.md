@@ -22,7 +22,7 @@ The default is really providers that we can't trust with our data. There are two
 
 OpenAI and Google are both willing to barter a deal with us that says they will preserve the privacy of our data. But they are in the business of training models, so...  trusting a giant model factory to *not* use your data may be a bit like asking a cookie monster to guard the cookie jar.  Sure, they might *promise* not to peek, but their entire business model is built on gobbling up data to make ever-bigger and better models (even just for human preferences). Their incentives are still pointed at data-munching, even if they promise to guard the jar.
 
-**Risk**: The provider you trusted turns out not be trustworthy.
+**Risk**: The provider you trusted is not trustworthy after all.
 
 ## 3. Trusted Provider (Aligned Incentives)
 
@@ -33,7 +33,7 @@ Two subsections under this category:
 1. There are some providers in this bucket who are willing to stake their business on the veracity of the claim that your data will remain private with them ([Prediction Guard](https://predictionguard.com/)). They are just promising that if Meta came knocking, they would say "we're not home".
 2. If providers can host models, then so can you (provided you have sufficient compute). So you may consider hosting a model on a gpu in the cloud, or to be ultra-safe, in your server-room. This allows you to control where your data is encrypted and decrypted as it moves across the interwebs.
 
-**Risk**: The provider you trusted turns out not be trustworthy, or the provider is compromised by a third party.
+**Risk**: The provider you trusted isn't trustworthy, perhaps because the provider is compromised by a third party.
 
 ## 4. Trusted Computing
 
