@@ -28,4 +28,4 @@ The existence of Elm, Purescript, Fable (F#), Rescript (and ReasonML), and Cloju
 
 ## Conclusion: A Call for Experimentation
 
-Typescript showed us that js could be the foundation of an industrial-strength language (maybe). But there is clearly a desire for more than gradual types. Two things that I've taken from Rust & Rescript that I would like to see in JS are `pattern matching` and `expressions`. So among other things, I would like to experiment with a language that supports `match` (and ADTs) and treats `if` and `match` as expressions. I intend to experiment with these ideas in a new language that, for now, I'm calling **Lumen**.
+Typescript showed us that js could be the foundation of an industrial-strength language (maybe). But there is clearly a desire for more than gradual types. Two things that I've taken from Rust & Rescript that I would like to see in JS are `pattern matching` and `expressions`. So among other things, I would like to experiment with a language that supports `match` (and ADTs) and treats `if` and `match` as expressions. I intend to experiment with these ideas in a new language. For now, I'm calling it **Lumen**.
