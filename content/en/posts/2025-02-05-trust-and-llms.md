@@ -4,6 +4,7 @@ title:  "Trust and LLMs"
 subtitle:  "A taxonomy of trust in the age of Large Language Models"
 date:   2025-02-05 14:00:00 +0300
 author: James Cuénod
+isStarred: true
 header-img: "img/post-bg-06.jpg"
 ---
 
