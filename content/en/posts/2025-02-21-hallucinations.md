@@ -21,7 +21,7 @@ So, the phenomenon we call _hallucination_ is a judgement entirely **dependent u
 
 ## Two. Fixing the Problem
 
-The fact that using the word "hallucination" means we don't really know what LLMs are doing and that means we also don't know how to fix the problem. Ever since ChatGPT launched, we've been waiting for different providers to release bigger models trained on more data. "The more parameters, the less hallucination", we assume. **But this problem is not going to go away** if we give LLMs more weights or more training data. Again, it's what they do. It's also not going to go away if we give them more context. So all the talk about "RAG" (Retrieval-Augmented Generation) solving the problem of hallucination is also completely mistaken. It helps with this phenomenon, but it doesn't change the fact that, again:
+The fact that we use the word "hallucination" means we don't really know what LLMs are doing. And _that_ means we also don't know how to _fix the problem_. Ever since ChatGPT launched, we've been waiting for different providers to release bigger models trained on more data. "The more parameters, the less hallucination", we believe. **But this problem is not going to go away** if we give LLMs more weights or more training data. Again, it's what they do. It's also not going to go away if we give them more context. So all the talk about "RAG" (Retrieval-Augmented Generation) solving the problem of hallucination is also completely mistaken. It helps with this phenomenon, but it doesn't change the fact that, again:
 
 > LLMs are just numbers flowing through huge matrices of other numbers; there is no "know" or "don't know", there's no "remember" or "learned", let alone "made up". There's just a probability distribution that indicates what word would probably come next in the kind of text that was in its training data.
 
@@ -33,7 +33,7 @@ Another way to think of this is that LLMs are designed to produce sequences that
 
 I deferred this point to the end, because it's well known, and I think the first reason is more important. But the last concern I have with "hallucination" is that of **anthropomorphism**. I am concerned that we're giving LLMs too much implicit agency.
 
-There's a host of problems with giving LLMs agency. Perhaps the most troubling one is that I see people deferring responsibility to them. I hear the logic "we let people do this task and they don't get 100% accuracy, so we may as well let the LLM do it". That argument is stupid, because the LLM will never be held responsible.
+There's a host of problems with giving LLMs agency. Perhaps the most troubling one is that I see people deferring responsibility to them. I hear the logic "we let people do this task and they don't get 100% accuracy, so we may as well let the LLM do it". That argument is fine for tasks with a high threshold for error (i.e., low cost of inaccuracy). But it is a stupid argument in cases where errors matter, because an LLM will never be held responsible.
 
 ![A computer cannot be held accountable](/bibletech/img/post-images/accountable.png)
 
